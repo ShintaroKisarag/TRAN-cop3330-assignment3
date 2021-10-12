@@ -1,0 +1,10 @@
+Program Start
+Read input file
+Store content of input file into Array
+Create output File
+Write header
+Write names from input file
+Create input file
+Arraylist to store names
+Sort list of names
+Close input and output file

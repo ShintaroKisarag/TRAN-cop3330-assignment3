@@ -1,0 +1,53 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+websiteGenerator <|-- website
+websiteGenerator <|-- JSFolder
+
+websiteGenerator <|- CSSFolder
+websiteGenerator <|- HTML
+main <|-- websiteGenerator
+
+class websiteGenerator{
+String site
+String author
+String path
+}
+
+class website {
+String directory
+File(directory)
+newFolder.mkdirs()
+}
+
+class JSFolder {
+String directory
+File(directory)
+newFolder.mkdirs()
+}
+
+class CSSFolder {
+String directory
+File(directory)
+newFolder.mkdirs()
+}
+
+class HTML {
+String directory
+File(directory)
+newFolder.mkdirs()
+String html
+BufferedWriter(new FilerWriter(file))
+writer.write(html)
+}
+
+class main{
+ String site
+ String author
+ String CSS
+ String JS
+ WebsiteGenerator()
+}
+
+@enduml

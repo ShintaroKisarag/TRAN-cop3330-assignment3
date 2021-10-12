@@ -1,0 +1,44 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+
+main <|-- readFile
+readFile <|-- readLine
+main <|-- WriteFile
+main <|-- readLine
+
+
+
+class readFile {
+ArrayList<String>list
+Scanner input
+}
+
+class readFile{
+File inputFile
+}
+
+class readLine{
+
+String data
+list.add(data)
+}
+
+class WriteFile{
+FileWriter(name)
+int index
+String temp
+String string
+}
+
+class main{
+Scanner input
+String output
+readFile()
+readLine()
+ArrayList<String>list
+writeFile(output,list)
+writeFile.writeFile()
+}
+@enduml

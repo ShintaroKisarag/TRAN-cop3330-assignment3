@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+main <|-- readFile
+main <|-- frequencyOfWords
+
+
+
+class frequencyOfWords {
+Treemap<>()
+String[]Array
+String string
+}
+
+class readFile {
+String words
+Scanner inputs
+File(path)
+String.valueOf(hide))
+}
+
+
+class main{
+string input
+String inputFile
+frequencyOfWords(objects.requireNonNull(input))
+}
+
+@enduml

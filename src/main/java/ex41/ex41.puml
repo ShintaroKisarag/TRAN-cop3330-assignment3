@@ -1,0 +1,29 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+outputList <|-- readList
+
+main <|- outputList
+main <|- readList
+
+class readList {
+Scanner inputfile
+ArrayList<String>name
+}
+
+class outputList{
+ArrayList<String>name
+FileWriter output
+}
+
+class main{
+File input
+Scanner inputFile
+ArrayList<String>name
+readList(inputFile,name)
+outputList(names)
+}
+
+
+@enduml

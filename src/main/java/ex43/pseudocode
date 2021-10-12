@@ -1,0 +1,30 @@
+Website Generator
+create attributes
+Create Website Folder
+    set directory
+    create file
+Create JSFolder
+    set directory
+    create file
+Create CSSFolder
+    set directory
+    create file
+Create HTML
+    set path
+    create file
+    write in the file
+
+Main
+Scanner
+Initialize site
+Initialize author
+Initialize CSS
+Initialize JS
+Prompt for site name
+Prompt for Author
+prompt if they want a folder for JS
+prompt if they want a folder for CSS
+create website
+create HTML
+if yes create folder for JS
+if yes create folder for CSS
