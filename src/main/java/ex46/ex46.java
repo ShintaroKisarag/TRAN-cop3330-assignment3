@@ -1,3 +1,9 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 3 Solution
+ *  Copyright 2021 Phi-Hung Tran
+ */
+
+
 package ex46;
 
 import java.io.*;
